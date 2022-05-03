@@ -69,7 +69,19 @@
 }
 
 
+@media(max-width: 991px){
+    .nav__h1{
+        font-size: 45px !important;
+    }
 
+    .nav__h2{
+        font-size: 35px !important;
+    }
+
+    .navbarhead{
+        height: 1200px !important;
+    }
+}
 
 
 
@@ -80,5 +92,32 @@
 
     .nav__h2{
         font-size: 20px !important;
+    }
+
+    .navbarhead{
+        max-height: 900px !important;
+    }
+
+    .nav__location{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 405px){
+    .navbarhead{
+        max-height: 800px !important;
+    }
+
+    .nav__h1{
+        font-size: 24px !important;
+    }
+
+    .nav__h2{
+        font-size: 16px !important;
+    }
+
+    .navbar__brand{
+        font-size: 20px !important;
+        font-weight: 500;
     }
 }
