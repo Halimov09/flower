@@ -68,6 +68,15 @@
     color: rgb(243, 125, 125) !important;
 }
 
+.navbarmiddle__name{
+    color: rgb(72, 24, 243);
+    font-weight: 600;
+}
+
+.navbarmiddle__on{
+    opacity: 0.9;
+}
+
 
 @media(max-width: 991px){
     .nav__h1{

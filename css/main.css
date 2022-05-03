@@ -425,6 +425,15 @@ template {
   color: #f37d7d !important;
 }
 
+.navbarmiddle__name {
+  color: #4818f3;
+  font-weight: 600;
+}
+
+.navbarmiddle__on {
+  opacity: 0.9;
+}
+
 @media (max-width: 991px) {
   .nav__h1 {
     font-size: 45px !important;
