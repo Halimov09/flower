@@ -1,0 +1,84 @@
+.navbarhead{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.418) 0% 100%), url("../img/bg.png.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.navbartop{
+    z-index: 10;
+}
+
+.navbar__brand{
+    font-weight: 700;
+    font-family: serif;
+    font-size: 22px;
+}
+
+.nav-link{
+    color: black !important;
+    transition: all 0.3s ease;
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color: rgb(207, 82, 32) !important;
+}
+
+.nav__telegram{
+    width: 20px;
+}
+
+.nav__whatsap{
+    width: 20px;
+}
+
+.nav__phone{
+    width: 20px;
+}
+
+.navbar__messenger{
+    p{
+        cursor: pointer;
+    }
+}
+
+.nav__h1{
+    font-weight: 600;
+}
+
+.nav__h2{
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.nav__location{
+    text-decoration: none !important;
+    background-color: rgb(75, 20, 20);
+    color: white !important;
+    border-radius: 20px;
+    padding: 7px 60px;
+    border: 1px solid white;
+}
+
+.nav__location:hover{
+    background-color: transparent;
+    border: 1px solid rgb(243, 125, 125);
+    color: rgb(243, 125, 125) !important;
+}
+
+
+
+
+
+
+@media(max-width: 576px){
+    .nav__h1{
+        font-size: 30px !important;
+    }
+
+    .nav__h2{
+        font-size: 20px !important;
+    }
+}
