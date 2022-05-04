@@ -458,6 +458,9 @@ template {
     position: relative !important;
     bottom: 0px !important;
   }
+  .navbarhead {
+    height: 95vh !important;
+  }
 }
 
 @media (max-width: 576px) {
