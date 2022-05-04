@@ -362,6 +362,7 @@ template {
   background-repeat: no-repeat;
   background-position: center center;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .navbartop {
@@ -444,6 +445,27 @@ template {
   bottom: -35px;
 }
 
+.all__catalog h2 {
+  color: darkblue;
+  font-weight: 600;
+}
+
+.all__catalog a {
+  text-decoration: none;
+  border: 2px solid darkblue;
+  padding: 10px 50px;
+  border-radius: 20px;
+  color: darkblue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.all__catalog a:hover {
+  background-color: darkblue;
+  border: 2px solid white;
+  color: white;
+}
+
 @media (max-width: 991px) {
   .nav__h1 {
     font-size: 45px !important;
@@ -457,9 +479,6 @@ template {
   .navbarmiddle__col .buttonprimary {
     position: relative !important;
     bottom: 0px !important;
-  }
-  .navbarhead {
-    height: 90vh !important;
   }
 }
 

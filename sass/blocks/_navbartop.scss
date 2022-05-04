@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .navbartop{
@@ -89,6 +90,27 @@
     }
 }
 
+.all__catalog{
+    h2{
+        color: darkblue;
+        font-weight: 600;
+    }
+    a{
+        text-decoration: none;
+        border: 2px solid darkblue;
+        padding: 10px 50px;
+        border-radius: 20px;
+        color: darkblue;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    a:hover{
+        background-color: darkblue;
+        border: 2px solid white;
+        color: white;
+    }
+}
 
 
 
@@ -110,9 +132,7 @@
             bottom: 0px !important;
         }
     }
-    .navbarhead{
-        height: 90vh !important;
-    }
+   
 }
 
 
