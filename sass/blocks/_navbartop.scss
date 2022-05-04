@@ -77,6 +77,20 @@
     opacity: 0.9;
 }
 
+.navbarmiddle__p{
+    color: rgb(72, 24, 243);
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+.navbarmiddle__col{
+    .buttonprimary{
+        bottom: -35px;
+    }
+}
+
+
+
 
 @media(max-width: 991px){
     .nav__h1{
@@ -89,6 +103,11 @@
 
     .navbarhead{
         height: 1200px !important;
+    }
+    .navbarmiddle__col{
+        .buttonprimary{
+            position: relative !important;
+        }
     }
 }
 
