@@ -471,6 +471,30 @@ template {
   border-radius: 20px !important;
 }
 
+.dos__text:hover {
+  background-color: #6b6969 !important;
+  color: white !important;
+}
+
+.carussel {
+  width: 800px !important;
+}
+
+.onas {
+  background-color: #021a47 !important;
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.made {
+  text-decoration: none !important;
+  color: rgba(255, 255, 255, 0.575);
+}
+
+.made span {
+  color: white;
+  font-size: 20px;
+}
+
 @media (max-width: 991px) {
   .nav__h1 {
     font-size: 45px !important;
