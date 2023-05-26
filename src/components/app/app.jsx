@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { About, Footer, Main, Navbar, All } from "../";
+import { About, Footer, Main, Navbar, All, Buying } from "../";
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
       <All/>
       <About />
       <Footer />
+
     </div>
   );
 };
