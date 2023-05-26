@@ -1,7 +1,6 @@
 import { category } from "../../constants";
 
 const Main = () => {
-  console.log(category);
   return (
     <div className="container">
       <div className="logo-banner">

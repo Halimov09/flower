@@ -13,7 +13,7 @@
 .logo-banner {
   display: flex;
   overflow-x: hidden;
-  margin-top: 40px;
+  margin-top: 150px;
 }
 
 li,
@@ -29,6 +29,14 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 10px;
+}
+
+.navbar{
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  background-color: white;
+  top: 0;
 }
 
 ul {
