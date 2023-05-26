@@ -1,8 +1,13 @@
+import { Rozi } from "../";
 
 const All = () => {
   return (
-    <div>All</div>
-  )
-}
+    <div>
+      <div className="all-container container">
+        <Rozi />
+      </div>
+    </div>
+  );
+};
 
-export default All
+export default All;

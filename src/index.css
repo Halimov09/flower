@@ -72,3 +72,9 @@ ul {
     max-width: 100px;
   }
 }
+
+@media (max-width: 667px){
+  .rozi{
+    justify-content: center !important;
+  }
+}
