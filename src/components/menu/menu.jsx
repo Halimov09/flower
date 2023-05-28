@@ -3,6 +3,7 @@ import { useState } from "react";
 import Search from "../search/search";
 import { colors } from "../../constants/color";
 import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   const [hide, setHide] = useState(true);
@@ -27,13 +28,13 @@ const Menu = () => {
       </Button>
       <ul className="all-menu list-group " style={{ display: hide || "block" , zIndex: 10}}>
         <li className="list-group-item list-group-item-success" >
-          <a style={{display: "block", color: colors.secondary }} href="">Розы</a>
+          <a style={{display: "block", color: colors.secondary }} href="/rozi">Розы</a>
         </li>
         <li className="list-group-item list-group-item-success" >
-          <a style={{display: "block", color: colors.secondary }} href="">хризантемы</a>
+          <a style={{display: "block", color: colors.secondary }} href="/xrizantem">хризантемы</a>
         </li>
         <li className="list-group-item list-group-item-success" >
-          <a style={{display: "block", color: colors.secondary }} href="">Пионы</a>
+          <a style={{display: "block", color: colors.secondary }} href="/pioni">Пионы</a>
         </li>
         <li className="list-group-item list-group-item-success" >
           <a style={{display: "block", color: colors.secondary }} href="">Куставые розы</a>

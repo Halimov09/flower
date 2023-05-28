@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { About, Footer, Main, Navbar, All, Buying } from "../";
+import { About, Footer, Main, Navbar, All, Buying, Pioni, Xrizantem, Rozi } from "../";
 
 const App = () => {
   return (
@@ -7,9 +7,10 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/footer" element={<Footer />} />
+        <Route path="/pioni" element={<Pioni />} />
+        <Route path="/xrizantem" element={<Xrizantem />} />
+        <Route path="/rozi" element={<Rozi />} />
       </Routes>
-      <All/>
       <About />
       <Footer />
 
