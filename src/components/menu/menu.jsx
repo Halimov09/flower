@@ -1,4 +1,4 @@
-import { MenuRounded } from "@mui/icons-material";
+import { Brightness2, Brightness3, MenuRounded } from "@mui/icons-material";
 import { useState } from "react";
 import Search from "../search/search";
 import { colors } from "../../constants/color";
@@ -37,31 +37,31 @@ const Menu = () => {
           <a style={{display: "block", color: colors.secondary }} href="/pioni">Пионы</a>
         </li>
         <li className="list-group-item list-group-item-success" >
-          <a style={{display: "block", color: colors.secondary }} href="">Куставые розы</a>
+          <a style={{display: "block", color: colors.secondary }} href="/kustavrozi">Куставые розы</a>
         </li>
         <li className="list-group-item list-group-item-success" >
-          <a style={{display: "block", color: colors.secondary }} href="">Герберы</a>
+          <a style={{display: "block", color: colors.secondary }} href="/gerberi">Герберы</a>
         </li>
         <li className="list-group-item list-group-item-success" >
-          <a style={{display: "block", color: colors.secondary }} href="">Тюльпаны</a>
+          <a style={{display: "block", color: colors.secondary }} href="/tyulpani">Тюльпаны</a>
         </li>
         <li className="list-group-item list-group-item-success" >
-          <a style={{display: "block", color: colors.secondary }} href="">Пионовидние розы</a>
+          <a style={{display: "block", color: colors.secondary }} href="/pinrozi">Пионовидние розы</a>
         </li>
         <li className="list-group-item list-group-item-success" >
-          <a style={{display: "block", color: colors.secondary }} href="">Розы в коробке</a>
+          <a style={{display: "block", color: colors.secondary }} href="/karobrozi">Розы в коробке</a>
         </li>
         <li className="list-group-item list-group-item-success" >
-          <a style={{display: "block", color: colors.secondary }} href="">Розы в корзине</a>
+          <a style={{display: "block", color: colors.secondary }} href="/korzinrozi">Розы в корзине</a>
         </li>
         <li className="list-group-item list-group-item-success" >
-          <a style={{display: "block", color: colors.secondary }} href="">Орхидея</a>
+          <a style={{display: "block", color: colors.secondary }} href="/orhideya">Орхидея</a>
         </li>
         <li className="list-group-item list-group-item-success" >
-          <a style={{display: "block", color: colors.secondary }} href="">Ромашки</a>
+          <a style={{display: "block", color: colors.secondary }} href="/romashka">Ромашки</a>
         </li>
         <li className="list-group-item list-group-item-success" >
-          <a style={{display: "block", color: colors.secondary }} href="">Корзину с надписью</a>
+          <a style={{display: "block", color: colors.secondary }} href="/koznadpisyu">Корзину с надписью</a>
         </li>
       </ul>
       <Search />

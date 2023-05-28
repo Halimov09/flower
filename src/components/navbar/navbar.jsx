@@ -1,10 +1,14 @@
+import { Brightness2 } from "@mui/icons-material";
 import { Menu } from "../";
 import { colors } from "../../constants/color";
 
 const Navbar = () => {
   return (
-    <div className="navbar shadow p-3 mb-5 bg-body-tertiary rounded">
-      <div style={{ width: "100%"}}>
+    <div
+      className="navbar shadow p-3 mb-5 bg-body-tertiary rounded"
+      style={{ backgroundColor: colors.white }}
+    >
+      <div style={{ width: "100%" }}>
         <div className="container navbar-container">
           <div className="logo">
             <a
@@ -18,6 +22,9 @@ const Navbar = () => {
               ROSEBUDFLOWERS
             </a>
           </div>
+          <Brightness2 
+            style={{ cursor: "pointer" ,color: colors.gren, marginLeft: "15px", width: "50px" }}
+          />
           <div className="menu">
             <Menu />
           </div>

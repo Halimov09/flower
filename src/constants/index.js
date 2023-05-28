@@ -72,6 +72,16 @@ export const xrizantem = [
     name: "51 хризантемы",
     narhi: "Стоимость 6999₽",
   },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-mNcCjYNZZgL.png",
+    name: "101 хризантемы",
+    narhi: "Стоимость 13999₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-9ppPNPshaZM1z.png",
+    name: "Хризантем",
+    narhi: "140",
+  },
 ];
 
 // rozi
@@ -112,3 +122,38 @@ export const rozi = [
     narhi: "110р",
   },
 ];
+
+// kustavrozi
+export const kustavrozi = [
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
+    name: "Розы 40 см",
+    title:
+      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
+    narhi: "70р",
+  },
+]
+
+// 
+// gerberi
+export const gerberi = [
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
+    name: "Розы 40 см",
+    title:
+      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
+    narhi: "70р",
+  },
+]
+
+// tyulpani
+// gerberi
+export const tyulpani = [
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
+    name: "Розы 40 см",
+    title:
+      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
+    narhi: "70р",
+  },
+]
