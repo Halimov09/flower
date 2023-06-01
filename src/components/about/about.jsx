@@ -2,13 +2,13 @@ import { colors } from "../../constants/color";
 
 const About = () => {
   return (
-    <div className="container" style={{ marginTop: "60px" }}>
+    <div className="container" style={{ marginTop: "60px", backgroundColor: colors.white }}>
       <h3 style={{ color: colors.secondary, margin: "20px 0" }}>О нас :</h3>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
-              style={{ color: colors.secondary }}
+              style={{ color: colors.secondary, backgroundColor: colors.bgcl }}
               class="accordion-button"
               type="button"
               data-bs-toggle="collapse"
@@ -20,6 +20,7 @@ const About = () => {
             </button>
           </h2>
           <div
+          style={{backgroundColor: colors.white}}
             id="collapseOne"
             class="accordion-collapse collapse show"
             data-bs-parent="#accordionExample"
@@ -37,7 +38,7 @@ const About = () => {
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
-              style={{ color: colors.secondary }}
+              style={{ color: colors.secondary, backgroundColor: colors.bgcl }}
               class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
@@ -50,6 +51,7 @@ const About = () => {
           </h2>
           <div
             id="collapseTwo"
+            style={{backgroundColor: colors.white}}
             class="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >
@@ -69,7 +71,7 @@ const About = () => {
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
-              style={{ color: colors.secondary }}
+              style={{ color: colors.secondary, backgroundColor: colors.bgcl }}
               class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
@@ -82,6 +84,7 @@ const About = () => {
           </h2>
           <div
             id="collapseThree"
+            style={{backgroundColor: colors.white}}
             class="accordion-collapse collapse"
             data-bs-parent="#accordionExample"
           >

@@ -147,7 +147,6 @@ export const gerberi = [
 ]
 
 // tyulpani
-// gerberi
 export const tyulpani = [
   {
     url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
@@ -155,5 +154,121 @@ export const tyulpani = [
     title:
       "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
     narhi: "70р",
+  },
+]
+// pionrozi
+export const pionrozi = [
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
+    name: "Розы 40 см",
+    title:
+      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
+    narhi: "70р",
+  },
+]
+
+// karobrozi
+export const karobrozi = [
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
+    name: "Розы 40 см",
+    title:
+      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
+    narhi: "70р",
+  },
+]
+
+
+// korzinrozi
+export const korzinrozi = [
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
+    name: "Розы 40 см",
+    title:
+      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
+    narhi: "70р",
+  },
+]
+
+// orhideya
+export const orhideya = [
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
+    name: "Розы 40 см",
+    title:
+      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
+    narhi: "70р",
+  },
+]
+
+
+// romashka
+export const romashka = [
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
+    name: "Розы 40 см",
+    title:
+      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
+    narhi: "70р",
+  },
+]
+
+
+// korznadpisyu
+export const korznadpisyu = [
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
+    name: "Розы 40 см",
+    title:
+      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
+    narhi: "70р",
+  },
+]
+
+
+// asosiy
+export const asosiy = [
+  {
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-07_20-54-53.png",
+    name: "251 пионы",
+    title: "Количество: 251 Цвет: красный, белый, розовый,",
+    narhi: "Стоимость 130000₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
+    name: "Розы 40 см",
+    title:
+      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
+    narhi: "70р",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-9ppPNPshaZM1z.png",
+    name: "Хризантем",
+    narhi: "140",
+  },
+  
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-0cxI3lcWF4eBSVqk.png",
+    name: "51 хризантемы",
+    narhi: "Стоимость 6999₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-egSISFA7PT8WZkpZ.png",
+    name: "Пионы 13 шт",
+    title:
+      "Цвет: ( красный, белый, розовый, микс) Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка)",
+    narhi: "Стоимость 6499₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-9ppPNPshaZM1z.png",
+    name: "Хризантем",
+    narhi: "140",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-KOicuuSdpwcA28S.png",
+    name: "Пионы 29 шт",
+    title:
+      "Цвет: ( красный, белый, розовый, микс) Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка)",
+    narhi: "Стоимость: 14499₽",
   },
 ]

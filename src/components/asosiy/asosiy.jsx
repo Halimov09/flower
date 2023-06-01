@@ -5,23 +5,25 @@ import { Typography } from "@mui/material";
 import { CardActionArea, CardActions } from "@mui/material";
 import { Buying } from "../";
 import { useEffect, useState } from "react";
+import { asosiy } from "../../constants";
 import { colors } from "../../constants/color";
 
-const Flower = ({ items }) => {
+const Asosiy = () => {
   const [item, setItem] = useState([]);
   useEffect(() => {
-    setItem(items);
-  }, [items]);
+    setItem(asosiy);
+  }, [asosiy]);
   return (
-    <div>
+    <div style={{marginTop: "90px", backgroundColor: colors.white}}>
+
+    <h3 style={{color: colors.gren}}>Популярный товар :</h3>
       <div
         style={{
           display: "flex",
           justifyContent: "space-between",
           flexWrap: "wrap",
-          marginTop: "60px",
+          marginTop: "30px",
           gap: "30px",
-          backgroundColor: colors.white
         }}
         className="shadow-sm p-3 mb-5 bg-body-tertiary rounded rozi container"
       >
@@ -59,4 +61,4 @@ const Flower = ({ items }) => {
   );
 };
 
-export default Flower;
+export default Asosiy;

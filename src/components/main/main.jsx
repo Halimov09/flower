@@ -1,8 +1,9 @@
+import { colors } from "../../constants/color";
 import { category } from "../../constants";
 
 const Main = () => {
   return (
-    <div className="container">
+    <div className="container" style={{backgroundColor: colors.white}}>
       <div className="logo-banner">
         <div
           id="carouselExampleAutoplaying"

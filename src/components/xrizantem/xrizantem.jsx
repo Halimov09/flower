@@ -3,7 +3,7 @@ import { Flower } from "../";
 
 const Xrizantem = () => {
   return (
-    <div style={{ marginTop: "150px" }}>
+    <div style={{ paddingTop: "150px" }}>
       <div className="container">
         <Flower items={xrizantem} />
       </div>

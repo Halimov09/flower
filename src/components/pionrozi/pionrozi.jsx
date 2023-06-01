@@ -1,14 +1,14 @@
-import { rozi } from "../../constants/index";
+import { pionrozi } from "../../constants/index";
 import { Flower } from "../";
 
-const Rozi = () => {
+const Pionrozi = () => {
   return (
     <div style={{ paddingTop: "150px" }}>
       <div className="container">
-        <Flower items={rozi} />
+        <Flower items={pionrozi} />
       </div>
     </div>
   );
 };
 
-export default Rozi;
+export default Pionrozi;

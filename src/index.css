@@ -18,7 +18,7 @@
 .logo-banner {
   display: flex;
   overflow-x: hidden;
-  margin-top: 150px;
+  padding-top: 150px;
 }
 
 li,
@@ -54,7 +54,6 @@ ul {
   padding: 25px;
   border-radius: 10px;
   display: none;
-  background-color: transparent;
   width: 100% !important;
 }
 

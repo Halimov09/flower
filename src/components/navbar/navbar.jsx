@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className="logo">
             <a
               style={{
-                color: `${colors.secondary}`,
+                color: `${colors.gren}`,
                 fontSize: "18px",
                 fontWeight: "bold",
               }}
