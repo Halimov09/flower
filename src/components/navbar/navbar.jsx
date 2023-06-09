@@ -3,33 +3,31 @@ import { Menu } from "../";
 import { colors } from "../../constants/color";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import { useState } from "react";
-import { useEffect } from "react";
-
+import BedtimeIcon from "@mui/icons-material/Bedtime";
 const Navbar = () => {
-  const [tru, setTru] = useState(false)
- 
-  const luna = () =>{
-    setTru(!tru)
+  const [tru, setTru] = useState(false);
+
+  const luna = () => {
+    setTru(!tru);
     console.log(tru);
-  }
+  };
 
-  const darlightmode = ()=>{
-    const darkmode = () =>{
-      document.querySelector("body").setAttribute("data-theme", "dark")
-    }
-    const ligtmode = () =>{
-      document.querySelector("body").setAttribute("data-theme", "light")
-    }
-    if (tru === true) darkmode()
-    else ligtmode()
-  }
+  const darlightmode = () => {
+    const darkmode = () => {
+      document.querySelector("body").setAttribute("data-theme", "dark");
+    };
+    const ligtmode = () => {
+      document.querySelector("body").setAttribute("data-theme", "light");
+    };
+    if (tru === true) darkmode();
+    else ligtmode();
+  };
 
-  darlightmode()
-  
+  darlightmode();
 
   return (
     <div
-      className="navbar shadow p-3 mb-5 bg-body-tertiary darkmode"
+      className="navbar shadow  mb-5 bg-body-tertiary darkmode"
       style={{ backgroundColor: colors.white }}
     >
       <div style={{ width: "100%" }}>
@@ -49,14 +47,24 @@ const Navbar = () => {
           <WbSunnyIcon
             onClick={luna}
             style={{
+              display: tru ? "block" : "none",
               cursor: "pointer",
               color: colors.gren,
               marginLeft: "15px",
               width: "50px",
             }}
-            
           />
-          <colors ln={tru}/>
+          <BedtimeIcon
+            onClick={luna}
+            style={{
+              color: "black",
+              cursor: "pointer",
+              display: tru ? "none" : "block",
+              marginLeft: "15px",
+              width: "50px",
+            }}
+          />
+          <colors ln={tru} />
           <div className="menu">
             <Menu />
           </div>
