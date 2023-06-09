@@ -2,14 +2,14 @@ import { colors } from "../../constants/color";
 
 const About = () => {
   return (
-    <div className="container" style={{ marginTop: "60px", backgroundColor: colors.white }}>
+    <div className="container" style={{ marginTop: "60px" }}>
       <h3 style={{ color: colors.secondary, margin: "20px 0" }}>О нас :</h3>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
-              style={{ color: colors.secondary, backgroundColor: colors.bgcl }}
-              class="accordion-button"
+              style={{ color: colors.secondary }}
+              class="accordion-button darklight"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
@@ -20,12 +20,11 @@ const About = () => {
             </button>
           </h2>
           <div
-          style={{backgroundColor: colors.white}}
             id="collapseOne"
-            class="accordion-collapse collapse show"
+            class="accordion-collapse collapse show darkmode"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body" style={{color: colors.gren, fontWeight: "bold"}}>
+            <div class="accordion-body" style={{fontWeight: "bold", color: colors.gren}}>
               по г. Москве в пределах МКАД. : <br />
               с 9:00 до 23:00 - 350 руб. <br />
               с 23:00-01:00 + 250р; <br />
@@ -38,8 +37,8 @@ const About = () => {
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
-              style={{ color: colors.secondary, backgroundColor: colors.bgcl }}
-              class="accordion-button collapsed"
+              style={{ color: colors.secondary }}
+              class="accordion-button collapsed darklight"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
@@ -51,11 +50,10 @@ const About = () => {
           </h2>
           <div
             id="collapseTwo"
-            style={{backgroundColor: colors.white}}
-            class="accordion-collapse collapse"
+            class="accordion-collapse collapse darkmode"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body"  style={{color: colors.gren, fontWeight: "bold"}}>
+            <div class="accordion-body"  style={{fontWeight: "bold, color: colors.gren"}}>
               Интернет-магазин «Rosebudflowers» по праву считается одним из
               лучших интернет-магазинов столице России У нас всегда свежие цветы
               и богатый выбор готовых букетов. Мы доставляем цветы семь дней в
@@ -71,8 +69,8 @@ const About = () => {
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button
-              style={{ color: colors.secondary, backgroundColor: colors.bgcl }}
-              class="accordion-button collapsed"
+              style={{ color: colors.secondary }}
+              class="accordion-button collapsed darklight"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseThree"
@@ -84,11 +82,10 @@ const About = () => {
           </h2>
           <div
             id="collapseThree"
-            style={{backgroundColor: colors.white}}
-            class="accordion-collapse collapse"
+            class="accordion-collapse collapse darkmode"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body" style={{color: colors.gren, fontWeight: "bold"}}>
+            <div class="accordion-body" style={{fontWeight: "bold", color: colors.gren}}>
               В регулярно обновляемом каталоге компании представлено более 200
               цветочных композиций. «Rosebudflowers» полностью гарантирует
               безупречное качество доставляемых букетов: наличие только свежих

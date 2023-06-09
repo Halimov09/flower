@@ -14,7 +14,7 @@ const Asosiy = () => {
     setItem(asosiy);
   }, [asosiy]);
   return (
-    <div style={{marginTop: "90px", backgroundColor: colors.white}}>
+    <div style={{paddingTop: "90px"}} className="darkmode">
 
     <h3 style={{color: colors.gren}}>Популярный товар :</h3>
       <div
@@ -28,7 +28,7 @@ const Asosiy = () => {
         className="shadow-sm p-3 mb-5 bg-body-tertiary rounded rozi container"
       >
         {item.map((item, i) => (
-          <Card sx={{ maxWidth: "300px" }} style={{backgroundColor: colors.bgcl}}>
+          <Card sx={{ maxWidth: "300px" }} className="darklight">
             <div>
               <CardActionArea>
                 <CardMedia

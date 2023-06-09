@@ -14,6 +14,30 @@
 }
 
 
+:root{
+  --backg_dark: white;
+  --clsecon_text: #444141;
+  --back-cl: rgb(255, 245, 245);
+}
+
+.darkmode{
+  background-color: var(--backg_dark) !important;
+}
+
+.darklight{
+  background-color: var(--back-cl) !important;
+}
+
+.darkcl{
+  color: var(--clsecon_text);
+}
+
+[data-theme = "dark"]{
+
+  --backg_dark: rgb(20 29 47);
+  --clsecon_text: #2e7d32;
+  --back-cl: rgb(30 42 71);
+}
 
 .logo-banner {
   display: flex;

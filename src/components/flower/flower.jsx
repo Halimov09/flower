@@ -21,7 +21,6 @@ const Flower = ({ items }) => {
           flexWrap: "wrap",
           marginTop: "60px",
           gap: "30px",
-          backgroundColor: colors.white
         }}
         className="shadow-sm p-3 mb-5 bg-body-tertiary rounded rozi container"
       >

@@ -4,7 +4,7 @@ import { colors } from "../../constants/color";
 
 const App = () => {
   return (
-    <div style={{backgroundColor: colors.white}}>
+    <div className="darkmode">
       <Navbar />
       <Routes>
         <Route path="/" element={<Main />} />

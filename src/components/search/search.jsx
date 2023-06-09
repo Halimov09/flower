@@ -15,10 +15,10 @@ const Search = () => {
     >
       <input
 
-      className="input form-control"
+      className="input form-control darkmode"
         type="text"
         placeholder="search"
-        style={{ outline: "none", border: "none", backgroundColor: colors.white}}
+        style={{ outline: "none", border: "none"}}
       />
       <SearchRounded style={{color: `${colors.secondary}`, cursor: "pointer"}}/>
     </div>

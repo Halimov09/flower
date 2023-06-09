@@ -3,7 +3,7 @@ import { category } from "../../constants";
 
 const Main = () => {
   return (
-    <div className="container" style={{backgroundColor: colors.white}}>
+    <div className="container darkmode" >
       <div className="logo-banner">
         <div
           id="carouselExampleAutoplaying"
