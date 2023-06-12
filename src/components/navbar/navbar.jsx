@@ -10,15 +10,13 @@ const Navbar = () => {
   const luna = () => {
     if (tru === false) {
       localStorage.setItem("ligh", 1);
-      setTru(true)
-    }else{
-      localStorage.removeItem("ligh", 1)
-      setTru(false)
+    } else {
+      localStorage.removeItem("ligh", 1);
     }
-
-    console.log(localStorage.getItem("ligh"));
+    setTru(!tru)
+    darlightmode()
   };
-
+  
   const darlightmode = () => {
     const darkmode = () => {
       document.querySelector("body").setAttribute("data-theme", "dark");
@@ -26,11 +24,12 @@ const Navbar = () => {
     const ligtmode = () => {
       document.querySelector("body").setAttribute("data-theme", "light");
     };
+    console.log(localStorage.getItem("ligh"));
     if (localStorage.getItem("ligh") == 1) darkmode();
     else ligtmode();
   };
-
   darlightmode();
+
 
   return (
     <div
@@ -54,7 +53,7 @@ const Navbar = () => {
           <WbSunnyIcon
             onClick={luna}
             style={{
-              display: tru ? "block" : "none",
+              display: localStorage.getItem("ligh") ? "block" : "none",
               cursor: "pointer",
               color: colors.gren,
               marginLeft: "15px",
@@ -66,7 +65,7 @@ const Navbar = () => {
             style={{
               color: "black",
               cursor: "pointer",
-              display: tru ? "none" : "block",
+              display: localStorage.getItem("ligh") ? "none" : "block",
               marginLeft: "15px",
               width: "50px",
               color: colors.gren,
