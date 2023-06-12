@@ -82,7 +82,7 @@ const Navbar = () => {
                 fontSize: "18px",
                 fontWeight: "bold",
               }}
-              href="#"
+              href="tel:+7 926 394 53 25"
             >
               +7 926 394 53 25
             </a>

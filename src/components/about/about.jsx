@@ -53,7 +53,7 @@ const About = () => {
             class="accordion-collapse collapse darkmode"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body"  style={{fontWeight: "bold, color: colors.gren"}}>
+            <div class="accordion-body"  style={{fontWeight: "bold", color: colors.gren}}>
               Интернет-магазин «Rosebudflowers» по праву считается одним из
               лучших интернет-магазинов столице России У нас всегда свежие цветы
               и богатый выбор готовых букетов. Мы доставляем цветы семь дней в

@@ -16,7 +16,7 @@ const Asosiy = () => {
   return (
     <div style={{paddingTop: "90px"}} className="darkmode">
 
-    <h3 style={{color: colors.gren}}>Популярный товар :</h3>
+    <h3 style={{color: colors.gren, paddingLeft: "10px"}}>Популярный товар :</h3>
       <div
         style={{
           display: "flex",
