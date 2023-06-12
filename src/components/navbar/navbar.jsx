@@ -8,8 +8,15 @@ const Navbar = () => {
   const [tru, setTru] = useState(false);
 
   const luna = () => {
-    setTru(!tru);
-    console.log(tru);
+    if (tru === false) {
+      localStorage.setItem("ligh", 1);
+      setTru(true)
+    }else{
+      localStorage.removeItem("ligh", 1)
+      setTru(false)
+    }
+
+    console.log(localStorage.getItem("ligh"));
   };
 
   const darlightmode = () => {
@@ -19,7 +26,7 @@ const Navbar = () => {
     const ligtmode = () => {
       document.querySelector("body").setAttribute("data-theme", "light");
     };
-    if (tru === true) darkmode();
+    if (localStorage.getItem("ligh") == 1) darkmode();
     else ligtmode();
   };
 
@@ -62,6 +69,7 @@ const Navbar = () => {
               display: tru ? "none" : "block",
               marginLeft: "15px",
               width: "50px",
+              color: colors.gren,
             }}
           />
           <colors ln={tru} />
