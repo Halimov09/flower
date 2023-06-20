@@ -1,5 +1,27 @@
 import { Route, Routes } from "react-router-dom";
-import { About, Footer, Main, Navbar, All, Buying, Pioni, Xrizantem, Rozi, Kustavrozi, Gerberi, Tyulpani, Pionrozi, Karobrozi, Korzinrozi, Orhideya, Romashka, Korznadpisyu, Asosiy } from "../";
+import {
+  About,
+  Footer,
+  Main,
+  Navbar,
+  All,
+  Buying,
+  Pioni,
+  Xrizantem,
+  Rozi,
+  Kustavrozi,
+  Gerberi,
+  Tyulpani,
+  Pionrozi,
+  Karobrozi,
+  Korzinrozi,
+  Orhideya,
+  Romashka,
+  Korznadpisyu,
+  Asosiy,
+  Loadings,
+  Searchpage,
+} from "../";
 import { colors } from "../../constants/color";
 
 const App = () => {
@@ -7,7 +29,7 @@ const App = () => {
     <div className="darkmode">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Main />} />
+      <Route path="/" element={<Main />} />
         <Route path="/pioni" element={<Pioni />} />
         <Route path="/xrizantem" element={<Xrizantem />} />
         <Route path="/rozi" element={<Rozi />} />
@@ -20,11 +42,11 @@ const App = () => {
         <Route path="/orhideya" element={<Orhideya />} />
         <Route path="/romashka" element={<Romashka />} />
         <Route path="/korznadpisyu" element={<Korznadpisyu />} />
+        <Route path="/flower" element={<Searchpage />} />
       </Routes>
-      <Asosiy/>
+      <Asosiy />
       <About />
       <Footer />
-
     </div>
   );
 };

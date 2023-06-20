@@ -1,7 +1,10 @@
 import { SearchOffRounded, SearchRounded } from "@mui/icons-material";
 import { colors } from "../../constants/color";
+import { useState } from "react";
+import {Searchpage} from "../";
 
 const Search = () => {
+  const [searc, setsearc] = useState("")
   return (
     <div
       style={{
@@ -17,6 +20,8 @@ const Search = () => {
 
       className="input form-control darkmode"
         type="text"
+        onChange={(e) => setsearc(e.target.value)}
+        value={searc}
         placeholder="search"
         style={{ outline: "none", border: "none", color: colors.gren}}
       />

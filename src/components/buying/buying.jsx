@@ -8,7 +8,6 @@ import Typography from "@mui/joy/Typography";
 import { useState } from "react";
 import axios from "axios";
 
-
 const Buying = ({ info }) => {
   const [size, setSize] = React.useState(undefined);
   const [post, setPost] = useState({
@@ -41,9 +40,25 @@ const Buying = ({ info }) => {
           },
         }
       )
-      .then((response) => console.log(response))
-      .catch((err) => console.log(err));
-    console.log(post);
+      .then((response) => {
+        if (response.status === 200) {
+          alert("zor");
+        } else {
+          alert("yomon");
+        }
+      })
+      .catch((err) => {
+        alert(err);
+      })
+      .finally(() => {
+        setSize(undefined);
+        setPost({
+          nomi: info,
+          name: "",
+          tel: "",
+          adres: "",
+        });
+      });
   }
 
   return (
@@ -55,19 +70,24 @@ const Buying = ({ info }) => {
           size="md"
           onClick={() => setSize("md")}
         >
-          ЗАКАЗАТ 
+          ЗАКАЗАТ
         </Button>
       </Stack>
+
       <Modal open={!!size} onClose={() => setSize(undefined)}>
+       
+
         <ModalDialog
           aria-labelledby="size-modal-title"
           aria-describedby="size-modal-description"
           size={size}
         >
           <ModalClose />
+
           <Typography id="size-modal-title" component="h2">
             {info}
           </Typography>
+
           <form className="row g-3" onSubmit={handelSubmit}>
             <div className="col-md-6">
               <label for="inputEmail4" className="form-label">
