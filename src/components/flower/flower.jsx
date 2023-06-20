@@ -25,7 +25,7 @@ const Flower = ({ items }) => {
         className="shadow-sm p-3 mb-5 bg-body-tertiary rounded rozi container"
       >
         {item.map((item, i) => (
-          <Card sx={{ maxWidth: "300px" }} style={{backgroundColor: colors.bgcl}}>
+          <Card sx={{ maxWidth: "300px" }} className="darklight">
             <div>
               <CardActionArea>
                 <CardMedia
