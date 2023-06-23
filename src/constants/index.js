@@ -118,11 +118,18 @@ export const rozi = [
 // kustavrozi
 export const kustavrozi = [
   {
-    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
-    name: "Розы 40 см",
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-NW5n6rLQKmWRpRI.png",
+    name: "Куставая роза 29 шт",
     title:
-      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
-    narhi: "70р",
+    "Цвет:  ( красный, белый, розовый, микс) Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка)",
+    narhi: "Стоимость: 3999₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-1EWIFYT7ftB.png",
+    name: "Куставая роза 101 шт",
+    title:
+    "Цвет:  ( красный, белый, розовый, микс) Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка)",
+    narhi: "Стоимость: 13999₽",
   },
 ]
 
@@ -130,22 +137,50 @@ export const kustavrozi = [
 // gerberi
 export const gerberi = [
   {
-    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
-    name: "Розы 40 см",
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-f8BYWs7egQiLb.png",
+    name: "Герберы 19 шт",
     title:
-      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
+      "Цвет: ( красный, жёлтый, малиновый, розовый, микс) Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка)",
     narhi: "70р",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-XgUJ97L7dfOi.png",
+    name: "Герберы 25 шт",
+    title:
+      "Цвет: ( красный, жёлтый, малиновый, розовый, микс) Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка)",
+    narhi: "Стоимость: 2499₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-hU15qrEsCgAZooh.png",
+    name: "Герберы  51 шт",
+    title:
+      "Цвет: ( красный, жёлтый, малиновый, розовый, микс) Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка)",
+    narhi: "Стоимость: 3999₽",
   },
 ]
 
 // tyulpani
 export const tyulpani = [
   {
-    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
-    name: "Розы 40 см",
+    url: "https://flowers-lilac.vercel.app/img/oie_1Kx02t4ooUfq.jpg",
+    name: "Тюльпаны N1",
     title:
-      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
-    narhi: "70р",
+      "Цвет: (розовый, красный, белый, фиолетовый, бежевый,микс) Упаковка: (крафт бумага, прозрачная плёнка, цветн плёнка, без упаковки) Цена указана за 1 ед. Минимальный заказ 29 шт",
+    narhi: "75р",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/oie_D3zDmefDZRzV.jpg",
+    name: "Тюльпаны N2",
+    title:
+      "Цвет: (розовый, красный, белый, фиолетовый, бежевый,микс) Упаковка: (крафт бумага, прозрачная плёнка, цветн плёнка, без упаковки) Цена указана за 1 ед. Минимальный заказ 29 шт",
+    narhi: "75р",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/oie_0pFLG2bu4xLJ.jpg",
+    name: "Тюльпаны N3",
+    title:
+      "Цвет: (розовый, красный, белый, фиолетовый, бежевый,микс) Упаковка: (крафт бумага, прозрачная плёнка, цветн плёнка, без упаковки) Цена указана за 1 ед. Минимальный заказ 29 шт",
+    narhi: "75р",
   },
 ]
 // pionrozi

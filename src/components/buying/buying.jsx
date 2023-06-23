@@ -42,9 +42,9 @@ const Buying = ({ info }) => {
       )
       .then((response) => {
         if (response.status === 200) {
-          alert("zor");
+          alert("завершено успешно");
         } else {
-          alert("yomon");
+          alert("что-то пошло не так");
         }
       })
       .catch((err) => {
@@ -129,6 +129,7 @@ const Buying = ({ info }) => {
                 onChange={(e) => handelinput(e)}
                 value={post.adres}
                 name="adres"
+                required
               />
             </div>
 
@@ -138,6 +139,7 @@ const Buying = ({ info }) => {
                   className="form-check-input"
                   type="checkbox"
                   id="gridCheck"
+                  required
                 />
                 <label className="form-check-label" for="gridCheck">
                   Я даю согласие на обработку персональных данных
@@ -146,7 +148,7 @@ const Buying = ({ info }) => {
             </div>
             <div className="col-12">
               <button type="submit" className="btn btn-primary">
-                Sign in
+              готов
               </button>
             </div>
           </form>

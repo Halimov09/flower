@@ -39,10 +39,9 @@ const Navbar = () => {
       <div style={{ width: "100%" }}>
         <div className="container navbar-container">
           <div className="logo">
-            <a
+            <a className="logotext"
               style={{
                 color: `${colors.gren}`,
-                fontSize: "18px",
                 fontWeight: "bold",
               }}
               href="/"
@@ -56,8 +55,8 @@ const Navbar = () => {
               display: localStorage.getItem("ligh") ? "block" : "none",
               cursor: "pointer",
               color: colors.gren,
-              marginLeft: "15px",
-              width: "50px",
+              marginLeft: "10px",
+              width: "45px",
             }}
           />
           <BedtimeIcon
@@ -66,8 +65,8 @@ const Navbar = () => {
               color: "black",
               cursor: "pointer",
               display: localStorage.getItem("ligh") ? "none" : "block",
-              marginLeft: "15px",
-              width: "50px",
+              marginLeft: "10px",
+              width: "45px",
               color: colors.gren,
             }}
           />

@@ -1,9 +1,7 @@
 import { Brightness2, Brightness3, MenuRounded } from "@mui/icons-material";
 import { useState } from "react";
-import Search from "../search/search";
 import { colors } from "../../constants/color";
 import { Button } from "@mui/material";
-import { Link } from "react-router-dom";
 
 const Menu = () => {
   const [hide, setHide] = useState(true);
@@ -16,11 +14,12 @@ const Menu = () => {
         onClick={() => {
           setHide(!hide);
         }}
+        className="btnmenu"
         style={{
           display: "flex",
           alignItems: "center",
           cursor: "pointer",
-          padding: "3px 10px",
+          
         }}
       >
         {" "}
@@ -64,7 +63,6 @@ const Menu = () => {
           <a style={{display: "block", color: colors.gren }}  href="/korznadpisyu">Корзину с надписью</a>
         </li>
       </ul>
-      <Search />
     </div>
   );
 };

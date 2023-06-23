@@ -42,7 +42,6 @@ const App = () => {
         <Route path="/orhideya" element={<Orhideya />} />
         <Route path="/romashka" element={<Romashka />} />
         <Route path="/korznadpisyu" element={<Korznadpisyu />} />
-        <Route path="/flower" element={<Searchpage />} />
       </Routes>
       <Asosiy />
       <About />

@@ -5,7 +5,7 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
 const Footer = () => {
   return (
-    <div style={{ marginTop: "90px", padding: "60px"}} className="shadow p-3 mb-5 bg-body-tertiaryn darklight">
+    <div style={{ marginTop: "90px", padding: "60px"}} className="shadow p-3 mb-5 bg-body-tertiaryn darkmode">
       <div className="container footer" style={{display:"flex", justifyContent: "space-around", alignItems: "center"}}>
         <div className="one"><h5 style={{color: colors.gren}}>Спасибо, что доверяете нам</h5></div>
        
