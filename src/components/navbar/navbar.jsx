@@ -55,7 +55,6 @@ const Navbar = () => {
               display: localStorage.getItem("ligh") ? "block" : "none",
               cursor: "pointer",
               color: colors.gren,
-              marginLeft: "10px",
               width: "45px",
             }}
           />
@@ -65,7 +64,6 @@ const Navbar = () => {
               color: "black",
               cursor: "pointer",
               display: localStorage.getItem("ligh") ? "none" : "block",
-              marginLeft: "10px",
               width: "45px",
               color: colors.gren,
             }}
