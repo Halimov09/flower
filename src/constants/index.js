@@ -186,22 +186,71 @@ export const tyulpani = [
 // pionrozi
 export const pionrozi = [
   {
-    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
-    name: "Розы 40 см",
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-p7rR0AACypa8hMr.png",
+    name: "Мисти баблс 29 шт N1",
     title:
-      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
-    narhi: "70р",
+      "Цвет: (розовый, красный, белый, фиолетовый, бежевый,микс) Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка, без упаковки)  Минимальный заказ 29 шт",
+    narhi: "Стоимость 5599₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-68Mo43yebban2.png",
+    name: "Мисти баблс 29 шт N2",
+    title:
+      "Цвет: (розовый, красный, белый, фиолетовый, бежевый,микс) Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка, без упаковки)  Минимальный заказ 29 шт",
+    narhi: "Стоимость 5499₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/725517680.png",
+    name: "Мисти баблс 19 шт",
+    title:
+      "Цвет: (розовый, красный, белый, фиолетовый, бежевый,микс) Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка, без упаковки)  Минимальный заказ 19 шт",
+    narhi: "Стоимость 4499₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/1762745013.png",
+    name: "Мисти баблс 51 шт",
+    title:
+      "Цвет: (розовый, красный, белый, фиолетовый, бежевый,микс) Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка, без упаковки)  Минимальный заказ 19 шт",
+    narhi: "Стоимость 8999₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/135930901.png",
+    name: "Мисти баблс 51 шт",
+    title:
+      "Цвет: (розовый, красный, белый, фиолетовый, бежевый,микс) Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка, без упаковки)  Минимальный заказ 19 шт",
+    narhi: "Стоимость 7499₽",
   },
 ]
 
 // karobrozi
 export const karobrozi = [
   {
-    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
-    name: "Розы 40 см",
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-PEys56Sn3ylnfjo%20(1).png",
+    name: "Розы в коробке 101 роза",
     title:
-      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
-    narhi: "70р",
+      "Цвет: красный, жёлтый, белый, розовый, Цвет коробки: красный, чёрный, белый, розовый,",
+    narhi: "Стоимость 7499₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-OFbEW7AOJeQ6ua%20(1).png",
+    name: "Розы в коробке Количество роз 21 шт",
+    title:
+      "Цвет: красный, жёлтый, белый, розовый, Цвет коробки: красный, чёрный, белый, розовый,",
+    narhi: "Стоимость 2499₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-0ftgHE8lJKoH%20(1).png",
+    name: "Розы в коробке Количество роз 151 шт",
+    title:
+      "Цвет: красный, жёлтый, белый, розовый, Цвет коробки: красный, чёрный, белый, розовый,",
+    narhi: "Стоимость 10499₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-13_23-47-50.jpg",
+    name: "Розы в коробке Количество роз 51 шт",
+    title:
+      "Цвет: красный, жёлтый, белый, розовый, Цвет коробки: красный, чёрный, белый, розовый,",
+    narhi: "Стоимость 4799₽",
   },
 ]
 
@@ -209,22 +258,64 @@ export const karobrozi = [
 // korzinrozi
 export const korzinrozi = [
   {
-    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
-    name: "Розы 40 см",
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-n85XybctYHQ%20(1).png",
+    name: "Роза в корзине Количество роз: 201",
     title:
-      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
-    narhi: "70р",
+      "Цвет: красный, жёлтый, белый, розовый,",
+    narhi: "Стоимость 15499₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-4dWwhfLAjIrp66%20(1).png",
+    name: "Роза в корзине Количество роз: 101",
+    title:
+      "Цвет: красный, жёлтый, белый, розовый,",
+    narhi: "Стоимость 8499₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-Cv1IXyAWW0u7m8L%20(1).png",
+    name: "Роза в корзине Количество роз: 151",
+    title:
+      "Цвет: красный, жёлтый, белый, розовый,",
+    narhi: "Стоимость 10999₽",
   },
 ]
 
 // orhideya
 export const orhideya = [
   {
-    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
-    name: "Розы 40 см",
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-07_20-48-30.png",
+    name: "Орхидея 1",
     title:
-      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
-    narhi: "70р",
+      "Орхидея в корзине",
+    narhi: "Стоимость 5499₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-07_20-48-37.png",
+    name: "Орхидея 2",
+    title:
+      "Орхидея в коробке",
+    narhi: "Стоимость 5099₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-07_20-48-46.png",
+    name: "Орхидея 3",
+    title:
+      "Орхидея в коробке",
+    narhi: "Стоимость 5999₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-07_20-49-28.png",
+    name: "Орхидея 4",
+    title:
+      "Орхидея в коробке",
+    narhi: "Стоимость 6599₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-07_20-49-57.png",
+    name: "Орхидея 5",
+    title:
+      "Орхидея в коробке",
+    narhi: "Стоимость 3299₽",
   },
 ]
 
@@ -232,11 +323,25 @@ export const orhideya = [
 // romashka
 export const romashka = [
   {
-    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
-    name: "Розы 40 см",
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-07_20-50-08.png",
+    name: "Ромашки 51 веток",
     title:
-      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
-    narhi: "70р",
+      "Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка, без упаковки)",
+    narhi: "Стоимость: 5199₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-07_20-50-34.png",
+    name: "Ромашки 25 веток",
+    title:
+      "Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка, без упаковки)",
+    narhi: "Стоимость 2899₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-07_20-50-41.png",
+    name: "49 веток Ромашки",
+    title:
+      "Упаковка: (крафт бумага, прозрачная плёнка, цветная плёнка, без упаковки)",
+    narhi: "Стоимость: 4899₽",
   },
 ]
 
@@ -244,11 +349,32 @@ export const romashka = [
 // korznadpisyu
 export const korznadpisyu = [
   {
-    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-xsqnvQQCKP4F%20(1).png",
-    name: "Розы 40 см",
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-07_20-51-31.png",
+    name: "101 Роза в корзине",
     title:
-      "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
-    narhi: "70р",
+      "Количество роз: 101  Цвет: красный, жёлтый, белый, розовый,",
+    narhi: "Стоимость 8999₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-07_20-50-48.png",
+    name: "1001 Роза в корзине",
+    title:
+      "Количество роз: 1001  Цвет: красный, жёлтый, белый, розовый,",
+    narhi: "Стоимость 69999₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/photo_2022-05-07_20-52-51.png",
+    name: "251 Роза в корзине письма",
+    title:
+      "Количество роз: 251  Цвет: красный, жёлтый, белый, розовый,",
+    narhi: "Стоимость 17999₽",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-YQmVj0mdfm9leY.png",
+    name: "111 хризантемы в корзину с надписью МАМА",
+    title:
+      "Количество роз: 1001 Цвет: красный, жёлтый, белый, розовый,",
+    narhi: "Стоимость: 13999₽",
   },
 ]
 
@@ -267,6 +393,13 @@ export const asosiy = [
     title:
       "Розы длиной 40 см Цвет: розовый/красный/белый/фиолетовый/бежевый/микс Упаковка: крафт бумага/прозрачная плёнка/цветная плёнка/без упаковки Цена указана за 1 ед.",
     narhi: "70р",
+  },
+  {
+    url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-YQmVj0mdfm9leY.png",
+    name: "111 хризантемы в корзину с надписью МАМА",
+    title:
+      "Количество роз: 1001 Цвет: красный, жёлтый, белый, розовый,",
+    narhi: "Стоимость: 13999₽",
   },
   {
     url: "https://flowers-lilac.vercel.app/img/imgonline-com-ua-resize-9ppPNPshaZM1z.png",
